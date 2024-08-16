@@ -1,11 +1,11 @@
 # Markdown Example
 
-- [Unordeded lists](#unordeded-lists)
+- [Unordeded lists](#unordered-lists)
 - ordered lists
 - text formatting
 - code
 - tables
-- [links](#links)
+- links
 - images
 - Blockquote
 - autolists
@@ -13,56 +13,44 @@
 
 https://github.github.com/gfm/
 
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+## Unordered lists
 
-## Unordeded lists
 
-We can craete unorded lists in markdown using hypens.
+We can create unprdered lists in markdown using hyphens
 
 - foo
 - bar
 + baz
-+ baz
+- baz
 
-## ordered lists
+## Ordered lists
 
 1. foo
-1. bar
+2. bar
 3) baz
-3) baz
-3) baz
+7) baz
+
 
 ## Text formatting
 
-_italics_
 *italics*
 **bold**
 __bold__
-~~striketrhough~~
+~~strikethrough~~
 
 ## Code
 
 ### Inline code
+You can print in the terminal using `print("Hello world")`
 
-You can print to the terminal using the `puts "hello world"` command.
 
 ### Multi line code
 
-
 #### Without highlighting
 
-```
-def hello_world
-  puts "Hello World"
-end
-```
-
-#### With Highlighting
-
-```rb
-def hello_world
-  puts "Hello World"
-end
+``` python
+def hello world():
+  print("Hello world")
 ```
 
 ## Tables
@@ -72,8 +60,8 @@ end
 | baz | bim |
 
 | abc | defghi |
-:-: | ------------------------: |
-bar | baz |
+:-: | -----------:
+bar | baz
 
 
 | abc | def |
@@ -81,24 +69,19 @@ bar | baz |
 | bar |
 | bar | baz | boo |
 
-| abc | def |
-| --- | --- |
 
 ## Blockquote
-
-> "The cloud is amazing"
+> "The cloud"
 
   > # Foo
-   > bar
- > baz
+    > bar
+  >baz
+
 
 ## Links
 
-[Github Website](https://github.com) 
-
-[Secret Page](Secret.md)
+[Github Website](https://github.com)
 
 ## Tasklist
 
-- [ ] Item 1
-- [x] Item 2
+- [x] Item1
